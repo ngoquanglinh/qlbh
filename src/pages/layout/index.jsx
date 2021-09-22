@@ -16,7 +16,8 @@ export default function Index() {
         <React.Fragment>
             <Switch>
                 {
-                    arrRoutes.map(({ path, exact, ...layoutProps }) => (
+                    arrRoutes.map(({ path, exact, ...layoutProps }) =>
+                    (
                         <Route
                             key={path}
                             path={path}

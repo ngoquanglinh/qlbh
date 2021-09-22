@@ -1,4 +1,4 @@
-import HomePage from "./home";
+import HomePage from "@/pages/home";
 export default {
     home: {
         path: '/',

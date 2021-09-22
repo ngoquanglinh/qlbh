@@ -32,5 +32,9 @@ module.exports = {
     plugins: [new MiniCssExtractPlugin()],
     resolve: {
         extensions: ['.ts', '.js', '.tsx', '.jsx'],
+        alias: {
+            '@': path.resolve(__dirname, './src'),
+        }
+
     }
 };
